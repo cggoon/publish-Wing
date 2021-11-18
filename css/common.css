@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i');
+
+/* reset */
+*, *:before, *:after {box-sizing:border-box}
+body { -webkit-text-size-adjust:none;font-weight:400;line-height:1.5;font-size:14px;letter-spacing:-.4px;font-family:'Noto Sans', 'Malgun Gothic', '맑은 고딕', sans-serif;color:#333} 
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button,figure,figcaption {margin:0;padding:0}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {display:block}
+h1,h2,h3,h4,h5,h6 {font-size:inherit}
+fieldset,img {border:0 none;vertical-align:middle}
+dl,ul,ol,menu,li {list-style:none}
+blockquote, q {quotes:none}
+blockquote:before, blockquote:after,q:before, q:after {content:'';content:none}
+input,select,textarea,button {font-size:100%;vertical-align:middle}
+button {border:0 none;background-color:transparent;cursor:pointer}
+table {border-collapse:collapse;border-spacing:0} 
+input[type='text'],input[type='password'],input[type='submit'],input[type='search'],input[type='number'],input[type='tel'], input[type='email'] {-webkit-appearance:none;border-radius:0;border-color:#d7d7d7}
+input:checked[type='checkbox'] {background-color:#3053bc;-webkit-appearance:checkbox}
+button,input[type='button'],input[type='submit'],input[type='reset'],input[type='file'] {-webkit-appearance:button;border-radius:0}
+/* input[type='search']::-webkit-search-cancel-button {-webkit-appearance:none} */
+input,select,textarea,button,pre {font-family:'Noto Sans', 'Malgun Gothic', '맑은 고딕', sans-serif;color:#333}
+a {color:inherit;text-decoration:none}
+address,caption,cite,code,dfn,em,var {font-style:normal}
+caption {display:none}
+select {-webkit-appearance:none;border:1px solid #d7d7d7;font-family:inherit;border-radius:0;}
+select::-ms-expand {display:none;}
+b, strong {font-weight:700}
+i {font-style:normal;}
+textarea {border:1px solid #d7d7d7;background:#fff;-webkit-appearance:none;border-radius:2px;}
+
+::-webkit-input-placeholder {vertical-align:middle;color:#bbb !important;font-weight:400}
+:-webkit-input-placeholder {vertical-align:middle;color:#bbb !important;font-weight:400}
+::-moz-placeholder {vertical-align:middle;color:#bbb !important;font-weight:400}
+:-moz-placeholder {vertical-align:middle;color:#bbb !important;font-weight:400}
+:-ms-input-placeholder {vertical-align:middle;color:#bbb !important;font-weight:400} 
